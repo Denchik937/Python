@@ -1,0 +1,20 @@
+<Test_2>:
+    BoxLayout:
+        id: gg_1
+        orientation: 'vertical'
+        Label:
+            id: gg
+            text: 'Hellow World'
+        Button:
+            text: ' Back'
+            on_press: root.manager.current = 'test1'
+
+<Test_1>:
+    BoxLayout:
+        orientation: 'vertical'
+        Button:
+            text: 'Click del'
+            on_press: root.dell()
+        Button:
+            text: 'Click next'
+            on_press: root.manager.current = 'test2'
